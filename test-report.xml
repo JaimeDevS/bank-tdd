@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\workspace\k\__tests__\model\NumeroConta.test.ts">
+    <testCase name="Número Conta conta com  seis dígitos" duration="49"/>
+    <testCase name="Número Conta conta com cinco dígits" duration="53"/>
+    <testCase name="Número Conta conta com sete dígitos" duration="4"/>
+    <testCase name="Número Conta conta com valor que não sejam dígitos" duration="4"/>
+  </file>
+  <file path="C:\workspace\k\__tests__\application\TransferenciaServico.test.ts">
+    <testCase name="Transferência Serviço transferir com sucesso" duration="69"/>
+    <testCase name="Transferência Serviço conta de origem não encontrada" duration="5"/>
+    <testCase name="Transferência Serviço conta de destino não encontrada" duration="1"/>
+  </file>
+  <file path="C:\workspace\k\__tests__\application\TransferenciaServicoMock.test.ts">
+    <testCase name="Transferencia serviço mock transferir com sucesso" duration="25"/>
+    <testCase name="conta de origem não encontrada" duration="13"/>
+    <testCase name="conta de destino não encontrada" duration="4"/>
+  </file>
+  <file path="C:\workspace\k\__tests__\model\Recibo.test.ts">
+    <testCase name="Recibo criar com sucesso" duration="53"/>
+    <testCase name="Recibo criar recibos diferentes" duration="3"/>
+  </file>
+  <file path="C:\workspace\k\__tests__\model\service\TransferenciaValor.test.ts">
+    <testCase name="Transferência Valor transferencia de valor entre contas com sucesso" duration="7"/>
+  </file>
+  <file path="C:\workspace\k\__tests__\model\Conta.test.ts">
+    <testCase name="Conta Conta sacar com sucesso" duration="2"/>
+    <testCase name="Conta Conta sacar com valor zerado" duration="17"/>
+    <testCase name="Conta Conta sacar com valor negativo" duration="2"/>
+    <testCase name="Conta Conta sacar valor acima do saldo" duration="1"/>
+    <testCase name="Conta Conta depositar com sucesso" duration="1"/>
+    <testCase name="Conta Conta depositar com valor zerado" duration="1"/>
+    <testCase name="Conta Conta depositar com valor negativo" duration="1"/>
+    <testCase name="Conta Conta sacar todo o saldo" duration="1"/>
+  </file>
+</testExecutions>
