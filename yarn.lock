@@ -463,6 +463,8 @@
 
 "@cucumber/cucumber@^7 || ^8 || ^9", "@cucumber/cucumber@^9.5.1":
   version "9.5.1"
+  resolved "https://registry.npmjs.org/@cucumber/cucumber/-/cucumber-9.5.1.tgz"
+  integrity sha512-9fRRxbRRkXxRB4D7C21ZjmEvBWI3Su7yNQDvRPfgHnd+xVKaOTvfPs/lZWN1TOiwYlnW5nupRaaCx5xV+fzurw==
   dependencies:
     "@cucumber/ci-environment" "9.2.0"
     "@cucumber/cucumber-expressions" "16.1.2"
@@ -1674,6 +1676,8 @@ csstype@^3.0.2:
 
 cucumber-tsflow@^4.1.1:
   version "4.1.1"
+  resolved "https://registry.npmjs.org/cucumber-tsflow/-/cucumber-tsflow-4.1.1.tgz"
+  integrity sha512-EeNpwXsNmgw2kg60PtcJPzNC/PEWBKR366UyktmHMEfj2uK1PxZY+q/W6MpmoSatsKXhmZxAKrMtRgXwXNdMQQ==
   dependencies:
     callsites "^3.1.0"
     log4js "^6.3.0"
@@ -3843,15 +3847,15 @@ ts-node@^10.9.1, ts-node@>=9.0.0:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@^2.0.3, tslib@^2.1.0, tslib@^2.5.0, tslib@~2.6.0, tslib@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
-  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
-
-tslib@^2.4.0:
+tslib@^2.0.3, tslib@^2.4.0:
   version "2.6.3"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.3.tgz"
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
+
+tslib@^2.1.0, tslib@^2.5.0, tslib@~2.6.0, tslib@2.6.2:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 tunnel@0.0.6:
   version "0.0.6"

@@ -7,5 +7,10 @@
     "workspaces": [
         "core",
         "web"
-    ]
+    ],
+    "devDependencies": {
+        "@cucumber/cucumber": "^9.5.1",
+        "cucumber-tsflow": "^4.1.1",
+        "ts-node": "^10.9.1"
+    }
 }
