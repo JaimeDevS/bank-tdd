@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="C:\workspace\k\core\__tests__\model\Conta.test.ts">
-    <testCase name="Conta Conta sacar com sucesso" duration="38"/>
-    <testCase name="Conta Conta sacar com valor zerado" duration="36"/>
+    <testCase name="Conta Conta sacar com sucesso" duration="51"/>
+    <testCase name="Conta Conta sacar com valor zerado" duration="59"/>
     <testCase name="Conta Conta sacar com valor negativo" duration="4"/>
-    <testCase name="Conta Conta sacar valor acima do saldo" duration="3"/>
+    <testCase name="Conta Conta sacar valor acima do saldo" duration="70"/>
     <testCase name="Conta Conta depositar com sucesso" duration="2"/>
-    <testCase name="Conta Conta depositar com valor zerado" duration="4"/>
-    <testCase name="Conta Conta depositar com valor negativo" duration="10"/>
+    <testCase name="Conta Conta depositar com valor zerado" duration="3"/>
+    <testCase name="Conta Conta depositar com valor negativo" duration="3"/>
     <testCase name="Conta Conta sacar todo o saldo" duration="1"/>
   </file>
   <file path="C:\workspace\k\core\__tests__\application\TransferenciaServicoMock.test.ts">
-    <testCase name="Transferencia serviço mock transferir com sucesso" duration="42"/>
-    <testCase name="conta de origem não encontrada" duration="6"/>
+    <testCase name="Transferencia serviço mock transferir com sucesso" duration="74"/>
+    <testCase name="conta de origem não encontrada" duration="7"/>
     <testCase name="conta de destino não encontrada" duration="5"/>
   </file>
-  <file path="C:\workspace\k\core\__tests__\application\TransferenciaServico.test.ts">
-    <testCase name="Transferência Serviço transferir com sucesso" duration="64"/>
-    <testCase name="Transferência Serviço conta de origem não encontrada" duration="19"/>
-    <testCase name="Transferência Serviço conta de destino não encontrada" duration="3"/>
-  </file>
   <file path="C:\workspace\k\core\__tests__\model\NumeroConta.test.ts">
-    <testCase name="Número Conta conta com  seis dígitos" duration="2"/>
-    <testCase name="Número Conta conta com cinco dígits" duration="29"/>
-    <testCase name="Número Conta conta com sete dígitos" duration="2"/>
-    <testCase name="Número Conta conta com valor que não sejam dígitos" duration="3"/>
+    <testCase name="Número Conta conta com  seis dígitos" duration="12"/>
+    <testCase name="Número Conta conta com cinco dígits" duration="32"/>
+    <testCase name="Número Conta conta com sete dígitos" duration="25"/>
+    <testCase name="Número Conta conta com valor que não sejam dígitos" duration="14"/>
+  </file>
+  <file path="C:\workspace\k\core\__tests__\model\Recibo.test.ts">
+    <testCase name="Recibo criar com sucesso" duration="17"/>
+    <testCase name="Recibo criar recibos diferentes" duration="3"/>
+  </file>
+  <file path="C:\workspace\k\core\__tests__\application\TransferenciaServico.test.ts">
+    <testCase name="Transferência Serviço transferir com sucesso" duration="91"/>
+    <testCase name="Transferência Serviço conta de origem não encontrada" duration="14"/>
+    <testCase name="Transferência Serviço conta de destino não encontrada" duration="2"/>
   </file>
   <file path="C:\workspace\k\core\__tests__\model\service\TransferenciaValor.test.ts">
     <testCase name="Transferência Valor transferencia de valor entre contas com sucesso" duration="3"/>
-  </file>
-  <file path="C:\workspace\k\core\__tests__\model\Recibo.test.ts">
-    <testCase name="Recibo criar com sucesso" duration="3"/>
-    <testCase name="Recibo criar recibos diferentes" duration="2"/>
   </file>
 </testExecutions>
